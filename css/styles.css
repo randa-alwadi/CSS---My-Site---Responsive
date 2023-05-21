@@ -13,6 +13,8 @@ h1 {
 
 #heading-black {
   color: black;
+  position: relative;
+  z-index: 2;
 }
 
 h2 {
@@ -167,11 +169,6 @@ hr {
 
 .footer-link {
   font-size: 1.15rem;
-}
-
-#heading-black {
-  position: relative;
-  z-index: 2;
 }
 
 /* ------------------------- */
