@@ -77,6 +77,7 @@ hr {
   top: 330px;
   height: 190px;
   width: 200px;
+  z-index: 1; /*to make the flower below #heading-black*/
 }
 
 #flower {
@@ -168,6 +169,11 @@ hr {
   font-size: 1.15rem;
 }
 
+#heading-black {
+  position: relative;
+  z-index: 2;
+}
+
 /* ------------------------- */
 
 @media (max-width: 1000px) {
@@ -255,12 +261,6 @@ hr {
     top: 310px;
     height: 145px;
     width: 155px;
-    z-index: 1;
-  }
-
-  #heading-black {
-    position: relative;
-    z-index: 2;
   }
 
   #flower {
