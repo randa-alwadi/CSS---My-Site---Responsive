@@ -174,15 +174,15 @@ hr {
   #top-flower {
     right: 80px;
     top: 0px;
-    height: 170px;
-    width: 180px;
+    height: 165px;
+    width: 175px;
   }
 
   #bottom-flower {
     left: 80px;
     top: 350px;
-    height: 150px;
-    width: 160px;
+    height: 145px;
+    width: 155px;
   }
 }
 
@@ -252,7 +252,15 @@ hr {
 
   #bottom-flower {
     left: 10px;
-    top: 320px;
+    top: 310px;
+    height: 145px;
+    width: 155px;
+    z-index: 1;
+  }
+
+  #heading-black {
+    position: relative;
+    z-index: 2;
   }
 
   #flower {
