@@ -299,8 +299,5 @@ hr {
 @media (max-width: 500px) {
   .footer-link {
     font-size: 1.17rem;
-    display: inline-block;
-    width: 150px;
-    height: 24px;
   }
 }
