@@ -64,7 +64,7 @@ hr {
 }
 
 .navbar-link {
-  font-size: 22.5px;
+  font-size: 1.4rem;
   color: #f55050;
   text-shadow: 0px 12px 10px #000000;
   font-weight: bold;
@@ -188,7 +188,7 @@ hr {
 }
 
 .footer-link {
-  font-size: 18px;
+  font-size: 1.15rem;
 }
 
 /* ------------------------- */
@@ -293,5 +293,14 @@ hr {
   #contact-me-flower {
     height: 170px;
     width: 190px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-link {
+    font-size: 1.17rem;
+    display: inline-block;
+    width: 150px;
+    height: 24px;
   }
 }
