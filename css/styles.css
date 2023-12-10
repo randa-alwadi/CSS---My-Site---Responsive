@@ -39,7 +39,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.footer-link:hover {
   color: #9d3c72;
 }
 
@@ -53,6 +53,25 @@ hr {
   background-color: #fad3e7;
   position: relative;
   padding-top: 100px;
+}
+
+#flexible-container {
+  display: flex;
+  position: absolute;
+  top: 50px;
+  left: 15px;
+  z-index: 2;
+}
+
+.navbar-link {
+  font-size: 1.4rem;
+  color: #f55050;
+  text-shadow: 0px 12px 10px #000000;
+  font-weight: bold;
+}
+
+.navbar-link:hover {
+  color: #00b781;
 }
 
 #middle-container {
@@ -71,6 +90,7 @@ hr {
   top: 50px;
   height: 210px;
   width: 220px;
+  z-index: 1; /*to make the flower below the navigation bar*/
 }
 
 #bottom-flower {
